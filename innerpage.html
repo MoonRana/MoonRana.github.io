@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script defer src="app.js"></script>
+    <title> DiscountData Plans-Cheap Data Plans  </title>
+    <style>
+        .cajaf{
+        position: fixed;
+        bottom: 120px;
+        right: 37px;
+        width: 50px;
+        height: 50px;
+        z-index: 100000;
+      }
+      .cajaf:hover{
+        height: 180px;
+      }
+      .cajaf:hover .caja1{
+        visibility: visible;
+        bottom: 60px;
+      }
+      .cajaf:hover .caja2{
+        visibility: visible;
+        bottom: 120px;
+      }
+      .caja2:hover:before{
+        visibility: visible;
+        color:#000;
+      }
+      .caja1:hover:before{
+        visibility: visible; 
+        color:#000;
+      }
+      .btn_roundf{
+        position: absolute;
+        bottom:0 ;
+        right: 0;
+        border:1px solid blue;
+        background: #5ec57e;
+        color:#fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 90090; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+      }
+      
+      .caja1{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border:1px solid #833AB4;
+        background: #d6249f;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        color: #fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 90080; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        -webkit-transition: all .5s;
+        visibility: hidden;
+      }
+      .caja2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border:1px solid #25D366;
+        background: #25D366;
+        color:#fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 9070; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        visibility: hidden;
+        -webkit-transition: all 1s;
+      }
+      .caja3{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border:1px solid #25D366;
+        background: #25D366;
+        color:#fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 9070; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        visibility: hidden;
+        -webkit-transition: all 1s;
+      }
+      .caja4{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border:1px solid #25D366;
+        background: #25D366;
+        color:#fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 9070; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        visibility: hidden;
+        -webkit-transition: all 1s;
+      }
+    </style>
+</head>
+<body>
+     <!--botones flotantes-->
+     <!-- <div class="cajaf">
+        <a href="#" class="btn_roundf" title="" alt="impirmir"><i class="fa fa-thumbs-o-up"></i></a>
+        <a class="caja1" href="https://www.instagram.com/" alt="" title=""><i class="fa fa-instagram"></i></a>
+        <a class="caja2" href="https://wa.me/2348157002782" alt="" title=""><i class="fa fa-whatsapp"></i></a>
+        <a class="caja3" href="https://wa.me/2348157002782" alt="" title=""><i class="fa fa-telegram"></i></a>
+        <a class="caja4" href="https://wa.me/2348157002782" alt="" title=""><i class="fa fa-gmail"></i></a>
+    </div> -->
+    <!--fin botones flotantes-->
+    <div class="preloader">
+        <span class="preloader__circle"></span>
+        <span class="preloader__circle preloader__circle--two"></span>
+    </div>
+
+    <a href="#" class="go-top" aria-label="Go back to top"><i class="fa-solid fa-chevron-up"></i></a>
+    
+    <nav>
+        <a href="#" class="nav__logo">
+            <img src="./images/white-logo.png" alt="Logo | Appvilla" class="nav__logo-white">
+            <img src="./images/logo.png" alt="Logo | Appvilla" class="nav__logo-orange">
+        </a>
+        <ul class="nav__links">
+            <li><a href="#header" class="header-link">Home</a></li>
+            <li><a href="#features" class="features-link">Why Us!</a></li>
+            <li><a href="#overview" class="overview-link">Overview</a></li>
+            <li><a href="#pricing" class="pricing-link">Pricing</a></li>
+            <li><a href="#faq" class="team-link">FAQ</a></li>
+            <li><a href="#blog" class="blog-link">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__menu">
+            <div class="hamburger"></div>
+        </div>
+        <a href="#" class="nav__cta">Get Started</a>
+    </nav>
+
+   <!-- Pricing Section -->
+    <div class="pricing nav-section" id="pricing">
+        <section class="pricing__text">
+            <h3 class="fadeFromTop">Privacy Policy </h3>
+            <h2 class="fadeFromTop">Privacy Policy </h2>
+            <p class="fadeFromTop">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+
+<h3>Comments</h3>
+            <p> When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>
+
+        </section>
+  
+<
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__top">
+            <div class="footer__intro">
+                <a href="#"><img src="./images/white-logo.png" alt="DiscountData" class="footer__intro--logo"></a>
+                <p>We are a automated 1st Tier Data Vending Platform <br>with direct connections to all Internet Service Providers<br> Networks.</p>
+                <ul class="footer__intro--media-links">
+                    <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+                <p class="footer__intro--copyright"><a href="#"></a> DiscountData 2023 </a>.</p>
+            </div>
+            <div class="footer__grids">
+                <section class="footer__grid">
+                    <h3>Solutions</h3>
+                    <ul class="footer__grid--list">
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Prices</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </section>
+                <section class="footer__grid">
+                    <h3>Get Our App Today</h3><br>
+                    <img alt="" width="150" height="60" src="./images/googleplay.png" onclick="window.open('https://bit.ly/ddnewapp');">
+                    <!-- <ul class="footer__grid--list">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">API Status</a></li>
+                        <li><a href="#">Live Support</a></li>
+                    </ul> -->
+                </section>
+            </div>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter__text">
+                <h3>Join our WhatsApp Group</h3>
+                <p>The latest news, articles, and resources, right from your WhatsApp.</p>
+            </div>
+            <form action="#" class="newsletter__form" onsubmit="window.open('http://your-link-url.com');">
+                <input type="hidden" placeholder="Your email address">
+                <button type="submit" >Join</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
